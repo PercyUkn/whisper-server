@@ -26,7 +26,7 @@ For easy testing purpose, now we just allow traffic from everywhere.
 # Step 2: Clone the Repo/Install Dependencies
 In your ubuntu instance, clone this Repo:
 ```
-git clone https://github.com/hyqshr/whispercpp-fastapi.git
+git clone https://github.com/PercyUkn/whisper-server.git
 ```
 Go to project folder:
 ```
