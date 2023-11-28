@@ -15,7 +15,8 @@ app.add_middleware(
     expose_headers=["Content-Disposition"],
 )
 
-w = Whisper('tiny')
+model_size = os.getenv('WHISPER_MODEL_SIZE', 'tiny')
+w = Whisper(model_size)
 UPLOAD_DIR="/tmp"
 if not os.path.exists(UPLOAD_DIR):
     os.makedirs(UPLOAD_DIR)
